@@ -1,0 +1,30 @@
+# ==============================
+# Basura de compilación Quartus
+# ==============================
+**/db/
+**/incremental_db/
+**/output_files/
+**/greybox_tmp/
+
+# Archivos de configuración y logs de Quartus
+*.qws
+*.bak
+*.ini
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.sof
+*.pof
+
+# ==============================
+# Basura de simulación Questa/ModelSim
+# ==============================
+**/Proj_questa/
+**/proj_modelsim/
+**/work/
+transcript
+vsim.wlf
+*.wlk
+*.mti
+*.mpf
